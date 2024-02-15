@@ -13,6 +13,8 @@
 		F9B18F6D2B7EB6C600463714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B18F6B2B7EB6C600463714 /* Main.storyboard */; };
 		F9B18F6F2B7EB6C700463714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B18F6E2B7EB6C700463714 /* Assets.xcassets */; };
 		F9B18F722B7EB6C700463714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B18F702B7EB6C700463714 /* LaunchScreen.storyboard */; };
+		F9B18F7C2B7EB93700463714 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B18F7B2B7EB93700463714 /* Card.swift */; };
+		F9B18F7E2B7EBDB700463714 /* CardTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B18F7D2B7EBDB700463714 /* CardTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F9B18F6E2B7EB6C700463714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B18F712B7EB6C700463714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9B18F732B7EB6C700463714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B18F7B2B7EB93700463714 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F9B18F7D2B7EBDB700463714 /* CardTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,31 @@
 			children = (
 				F9B18F652B7EB6C600463714 /* AppDelegate.swift */,
 				F9B18F672B7EB6C600463714 /* SceneDelegate.swift */,
-				F9B18F692B7EB6C600463714 /* ViewController.swift */,
+				F9B18F7A2B7EB91B00463714 /* Model */,
+				F9B18F792B7EB91300463714 /* View */,
 				F9B18F6B2B7EB6C600463714 /* Main.storyboard */,
 				F9B18F6E2B7EB6C700463714 /* Assets.xcassets */,
 				F9B18F702B7EB6C700463714 /* LaunchScreen.storyboard */,
 				F9B18F732B7EB6C700463714 /* Info.plist */,
 			);
 			path = "Project 7";
+			sourceTree = "<group>";
+		};
+		F9B18F792B7EB91300463714 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9B18F692B7EB6C600463714 /* ViewController.swift */,
+				F9B18F7D2B7EBDB700463714 /* CardTextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9B18F7A2B7EB91B00463714 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9B18F7B2B7EB93700463714 /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +162,9 @@
 			files = (
 				F9B18F6A2B7EB6C600463714 /* ViewController.swift in Sources */,
 				F9B18F662B7EB6C600463714 /* AppDelegate.swift in Sources */,
+				F9B18F7E2B7EBDB700463714 /* CardTextView.swift in Sources */,
 				F9B18F682B7EB6C600463714 /* SceneDelegate.swift in Sources */,
+				F9B18F7C2B7EB93700463714 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
